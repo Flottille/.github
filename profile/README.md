@@ -46,19 +46,6 @@ systemd. It observes and never bans — `fail2ban` still has its place next to i
 [Throttling](https://gabier.nebulabs.org/docs/throttling/) ·
 Rust · MIT
 
-## 🌐 [gabier-site](https://github.com/Flottille/gabier-site) — the documentation
-
-Astro 5 and Tailwind v4, static, around 3 kB of JavaScript on the heaviest
-page. The docs are MDX with validated frontmatter, so the sidebar, the
-navigation, the SEO metadata and the JSON-LD all fall out of the content
-itself. Search is Pagefind, indexed after the build. Deploys to Cloudflare
-Pages.
-
-Everything project-specific lives in one file, `src/config/site.ts` — useful
-if you want to fork the thing and point it at your own project.
-
-[gabier.nebulabs.org](https://gabier.nebulabs.org) · Astro · MIT
-
 ---
 
 ## How things get built here
